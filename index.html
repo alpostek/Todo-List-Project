@@ -6,49 +6,72 @@
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class=".col-md-12 header">
         <h1>Things to do</h1>
         </div>
-      <div class=".col-md-10 main">
-        <div class="row">
-            <div class="col-md-4">
-              <div class="pad">
+      </div>
+      <div class=".col-md-12 main">
+        <div class="row flexy-space-betw">
+            <div class="col-md-3 panel panel-default mrgtop">
+              <div class="panel-heading">
                   <p>work</p>
               </div>
+              <div class="panel-body">
+                  <p>info</p>
+              </div>
             </div>
-            <div class="col-md-4 category">
-                <div class="pad">
+            <div class="col-md-3 panel panel-default mrgtop">
+                <div class="panel-heading">
                     <p>education</p>
                 </div>
+                <div class="panel-body">
+                    <p>info</p>
+                </div>
             </div>
-            <div class="col-md-4 category">
-                <div class="pad">
+            <div class="col-md-3 category panel panel-default mrgtop">
+                <div class="panel-heading">
                     <p>exercise</p>
+                </div>
+                <div class="panel-body">
+                    <p>info</p>
                 </div>
             </div>
         </div>
-        <div class="row flexy-center">
-          <div class="col-md-4 category">
-            <div class="pad">
+        <div class="row flexy-space-betw">
+          <div class="col-md-3 category panel panel-default pad">
+            <div class="panel-heading">
               <p>household duties</p>
             </div>
+            <div class="panel-body">
+                <p>info</p>
+            </div>
           </div>
-          <div class="col-md-4 category">
-            <div class="pad">
+          <div class="col-md-3 category panel panel-default pad">
+            <div class="panel-heading">
                 <p>other</p>
+            </div>
+            <div class="panel-body">
+                <p>info</p>
             </div>
           </div>
         </div>
-        <!-- <div class="row">
-            <div class="col-md-5">
+        <div class="row">
+            <div class="col-md-4 form-group">
                 <p>Add activity</p>
+                <label>Category</label>
                 <select class="form-control">
-
+                  <option>Work</option>
+                  <option>Education</option>
+                  <option>Exercise</option>
+                  <option>Household Duties</option>
+                  <option>Other</option>
                 </select>
+                <label>Type description here</label>
+                <input type="text" placeholder="To do..."></input>
             </div>
-        </div> -->
+        </div>
         </div>
     </div>
 

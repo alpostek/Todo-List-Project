@@ -4,8 +4,6 @@
   min-height: 550px;
 }
 
-
-
 .header{
   text-align: center;
   line-height: 15px;
@@ -17,12 +15,18 @@
   justify-content: center;
 }
 
-.pad{
-  margin: 15px;
-  padding: 15px;
-  min-height: 180px;
-  background-color: red;
+.flexy-space-betw{
+  display: flex;
+  justify-content: space-between;
 }
+
+.mrgtop{
+  margin-top: 10px;
+}
+/*.pad{
+  margin: 2px;
+  padding: 2px;
+}*/
 
 .category{
   padding: 0 5px 0 5px;
