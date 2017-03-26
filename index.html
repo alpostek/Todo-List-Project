@@ -5,6 +5,8 @@
     <title>Todo List Project</title>
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
 
     <div class="container-fluid">
       <div class="row">
@@ -13,8 +15,9 @@
         </div>
       </div>
       <div class=".col-md-12 main">
-        <div class="row flexy-space-betw">
-            <div class="col-md-3 panel panel-default mrgtop">
+
+        <div class="row flexy-center">
+            <div class="col-md-6 panel panel-default mrgtop">
               <div class="panel-heading">
                   <p>work</p>
               </div>
@@ -22,7 +25,11 @@
                   <p>info</p>
               </div>
             </div>
-            <div class="col-md-3 panel panel-default mrgtop">
+
+          </div>
+
+          <div class="row flexy-center">
+            <div class="col-md-6 panel panel-default mrgtop">
                 <div class="panel-heading">
                     <p>education</p>
                 </div>
@@ -30,7 +37,10 @@
                     <p>info</p>
                 </div>
             </div>
-            <div class="col-md-3 category panel panel-default mrgtop">
+            </div>
+
+            <div class="row flexy-center">
+            <div class="col-md-6 category panel panel-default mrgtop">
                 <div class="panel-heading">
                     <p>exercise</p>
                 </div>
@@ -38,9 +48,10 @@
                     <p>info</p>
                 </div>
             </div>
-        </div>
-        <div class="row flexy-space-betw">
-          <div class="col-md-3 category panel panel-default pad">
+            </div>
+
+        <div class="row flexy-center">
+          <div class="col-md-6 category panel panel-default pad">
             <div class="panel-heading">
               <p>household duties</p>
             </div>
@@ -48,7 +59,10 @@
                 <p>info</p>
             </div>
           </div>
-          <div class="col-md-3 category panel panel-default pad">
+          </div>
+
+          <div class="row flexy-center">
+          <div class="col-md-6 category panel panel-default pad">
             <div class="panel-heading">
                 <p>other</p>
             </div>
@@ -56,26 +70,34 @@
                 <p>info</p>
             </div>
           </div>
+          </div>
+
+
+        <div class="row flexy-center">
+          <div class="col-md-6 form-group textcenter">
+              <h2 class="pdg">Add activity</h2>
+              <label class="pdg">Category</label>
+              <select class="form-control">
+                <option>Work</option>
+                <option>Education</option>
+                <option>Exercise</option>
+                <option>Household Duties</option>
+                <option>Other</option>
+              </select>
+              <div class="row flexy-center">
+                <div class="col-md-6">
+              <label class="mrg pdg">Type description here</label>
+              <input type="text" placeholder="To do..."></input>
+              </div>
+              </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 form-group">
-                <p>Add activity</p>
-                <label>Category</label>
-                <select class="form-control">
-                  <option>Work</option>
-                  <option>Education</option>
-                  <option>Exercise</option>
-                  <option>Household Duties</option>
-                  <option>Other</option>
-                </select>
-                <label>Type description here</label>
-                <input type="text" placeholder="To do..."></input>
-            </div>
+
         </div>
-        </div>
+
     </div>
 
-</head>
-<body>
+
+
 </body>
 </html>

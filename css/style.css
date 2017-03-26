@@ -15,7 +15,18 @@
   justify-content: center;
 }
 
-.flexy-space-betw{
+.mrg{
+  margin: 10px;
+}
+
+.pdg{
+  padding: 10px;
+}
+
+.textcenter{
+  text-align: center;
+}
+/*.flexy-space-betw{
   display: flex;
   justify-content: space-between;
 }
@@ -23,11 +34,8 @@
 .mrgtop{
   margin-top: 10px;
 }
-/*.pad{
-  margin: 2px;
-  padding: 2px;
-}*/
+
 
 .category{
   padding: 0 5px 0 5px;
-}
+}*/
