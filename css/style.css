@@ -1,0 +1,29 @@
+
+.main{
+  background-color: grey;
+  min-height: 550px;
+}
+
+
+
+.header{
+  text-align: center;
+  line-height: 15px;
+  min-height: 30px;
+}
+
+.flexy-center{
+  display: flex;
+  justify-content: center;
+}
+
+.pad{
+  margin: 15px;
+  padding: 15px;
+  min-height: 180px;
+  background-color: red;
+}
+
+.category{
+  padding: 0 5px 0 5px;
+}
